@@ -1,12 +1,9 @@
 package com.MyUtiliti.Gui;
 
-import com.MyUtiliti.ExelEvent.ReadXlsFile;
-
 import javax.swing.*;
 import javax.swing.border.Border;
 import java.awt.*;
 
-import static com.MyUtiliti.Gui.ActionFileChooser.fileFolderName;
 
 public class Display extends JFrame {
 
@@ -15,11 +12,14 @@ public class Display extends JFrame {
     private JLabel labelWhearSerch = new JLabel("Где и щем ");
     private JButton jButtonDownloundFst = new JButton("Загрузить файл");
     private JButton jButtonDownloundSec = new JButton("Загрузить файл");
+    private JButton jBottonSave = new JButton("Сохранить");
+    private JLabel labelSave = new JLabel("Сохранить файл: ");
     private JButton jBottonNext = new JButton("Далее");
     private JButton jBottonCancel = new JButton("Отмена");
 
-    public static  String fstFileFolderName;
-    public static  String secFileFolderName;
+    public static String fstFileFolderName;
+    public static String secFileFolderName;
+    public static String saveFileFolder;
 
     public Display(){
 
@@ -33,6 +33,7 @@ public class Display extends JFrame {
 
         JLabel labeleName = new JLabel("Имя файла");
         JLabel labeleNameTwo = new JLabel("Имя файла");
+        JLabel labelSavePath = new JLabel("Путь к файлу");
 
         JPanel northLableArea = new JPanel();
         Border northBorder = BorderFactory.createTitledBorder("Равно не равно");
@@ -45,7 +46,7 @@ public class Display extends JFrame {
         JPanel centre = new JPanel();
         Border centreBorder = BorderFactory.createTitledBorder("Выберите файлы");
         centre.setBorder(centreBorder);
-        centre.setLayout(new GridLayout(2,3,2,2));
+        centre.setLayout(new GridLayout(3,3,2,2));
         //centre.setBounds(10,10,600,5);
         centre.add(labelWhatSerch);
         centre.add(labeleName);
@@ -54,6 +55,11 @@ public class Display extends JFrame {
         centre.add(labelWhearSerch);
         centre.add(labeleNameTwo);
         centre.add(jButtonDownloundSec);
+
+        centre.add(labelSave);
+        centre.add(labelSavePath);
+        centre.add(jBottonSave);
+
 
         JPanel south = new JPanel();
         Border southBorder = BorderFactory.createTitledBorder("Выберите действие");
@@ -70,9 +76,12 @@ public class Display extends JFrame {
 
         //TODO
 
-        ActionFileChooser fsBtnChooser = new ActionFileChooser(jButtonDownloundFst, labeleName);
-        ActionFileChooser secBtnChooser = new ActionFileChooser(jButtonDownloundSec, labeleNameTwo);
+        ActionFileChooserFstXls fsBtnChooser = new ActionFileChooserFstXls(jButtonDownloundFst, labeleName);
+        ActionFileChooserSecXls secBtnChooser = new ActionFileChooserSecXls(jButtonDownloundSec, labeleNameTwo);
+        ActionFileChooserSaveXls saveBtnChooser = new ActionFileChooserSaveXls(jBottonSave, labelSavePath);
+
+
+
 
     }
-
 }

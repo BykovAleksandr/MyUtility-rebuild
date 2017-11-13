@@ -15,6 +15,8 @@ public class SaveAsExlsFile {
 
     // Add in constructor arrayList with result
     public SaveAsExlsFile(String fileFolderName) {
+
+        System.out.println(fileFolderName);
             // Make exl book
             Workbook wb = new HSSFWorkbook();
             // Create sheet in xls book
@@ -34,6 +36,7 @@ public class SaveAsExlsFile {
 
             wb.write(fos);
             fos.close();
+            JOptionPane.showMessageDialog(null, "Файл создан!");
 
         } catch (IOException e) {
             e.printStackTrace();

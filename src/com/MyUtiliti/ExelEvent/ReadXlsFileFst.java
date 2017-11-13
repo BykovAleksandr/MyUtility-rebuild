@@ -11,63 +11,43 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 
-public class ReadXlsFile {
+public class ReadXlsFileFst {
 
     //Serch value array list
     public static ArrayList<String> whatSerchArrayList = new ArrayList<>();
-    public static ArrayList<String> whearSerchArrayList = new ArrayList<>();
 
-
+//TODO remake all
     // в конструктор передаем путь к файлу
     // read end whrit in arrayList search values
-    public ReadXlsFile(String readWhatSerch, String readWherSerch){
+    public ReadXlsFileFst(String readWhatSerch) {
 
         try {
-            FileInputStream fis = new FileInputStream(readWhatSerch + ".xls");
+            FileInputStream fis = new FileInputStream(readWhatSerch);
             Workbook wb = new HSSFWorkbook(fis);
 
             // init arrayList serch Value
-            for (Row row : wb.getSheetAt(0)){
-                for (Cell cell : row){
+            for (Row row : wb.getSheetAt(0)) {
+                for (Cell cell : row) {
                     whatSerchArrayList.add(ParserXlsFile.parserXlsFile(getCellText(cell)));
                 }
             }
 
             fis.close();
+            /*
+            for (String print : whatSerchArrayList){
+                System.out.println("Что ищем: " + print);
+            }
+            */
+            JOptionPane.showMessageDialog(null, "Файл с искомыми значениями успешно загружен!");
 
         } catch (IOException e) {
             JOptionPane.showMessageDialog(null, e);
             e.printStackTrace();
         }
 
-        // read and write values in arrayList for the search
+    }      // read and write values in arrayList for the search
         // Читаем/парсим/проверяем вернувшиеся данные на "null"
 
-        try {
-            FileInputStream fis = new FileInputStream(readWherSerch + ".xls");
-            Workbook wb = new HSSFWorkbook(fis);
-
-            for (Row row : wb.getSheetAt(0)){
-
-                for (Cell cell : row){
-                    String tmpString = ParserXlsFile.parserXlsFile(getCellText(cell));
-                    if (tmpString != null){
-                            whearSerchArrayList.add(tmpString);
-                        }
-
-
-                }
-
-            }
-
-            fis.close();
-
-
-        } catch (IOException e) {
-            JOptionPane.showMessageDialog(null, e);
-            e.printStackTrace();
-        }
-    }
     // Method which initialize end sort inStrim Values
     public static String getCellText(Cell cell){
 
@@ -98,5 +78,7 @@ public class ReadXlsFile {
 
         return result;
     }
+
+
 
 }

@@ -1,8 +1,7 @@
 package com.MyUtiliti;
 
-import com.MyUtiliti.EqualsIsNotEqualTo.EqualsIsNotEqualTo;
-import com.MyUtiliti.ExelEvent.ReadXlsFile;
-import com.MyUtiliti.ExelEvent.SaveAsExlsFile;
+import com.MyUtiliti.ExelEvent.ReadXlsFileFst;
+import com.MyUtiliti.ExelEvent.ReadXlsFileSec;
 import com.MyUtiliti.Gui.Display;
 
 
@@ -13,12 +12,12 @@ public class Fasad {
         Display display = new Display();
         display.setVisible(true);
 
+        //System.out.println(ActionFileChooserSaveXls.getFileFolderName());
 
-
-        //ReadXlsFile readXlsFile = new ReadXlsFile(fstFileFolderName, secFileFolderName);
+        //ReadXlsFileFst readXlsFile = new ReadXlsFileFst(ActionFileChooserSaveXls.getFileFolderName(), secFileFolderName);
         /*
         SaveAsExlsFile makeExelFile = new SaveAsExlsFile("Q:/Papa-dok/Java Projekt/test/Null");
-        EqualsIsNotEqualTo equalsIsNotEqualTo = new EqualsIsNotEqualTo(ReadXlsFile.whatSerchArrayList, ReadXlsFile.whearSerchArrayList);
+        EqualsIsNotEqualTo equalsIsNotEqualTo = new EqualsIsNotEqualTo(ReadXlsFileFst.whatSerchArrayList, ReadXlsFileFst.whearSerchArrayList);
 
 
 
@@ -32,16 +31,16 @@ public class Fasad {
             System.out.println("Нет совпадений: " + print);
         }
 
-
-        for (String print : ReadXlsFile.whatSerchArrayList){
+*/
+        for (String print : ReadXlsFileFst.whatSerchArrayList){
             System.out.println("Что ищем: " + print);
         }
 
         System.out.println();
 
-        for (String print : ReadXlsFile.whearSerchArrayList){
+        for (String print : ReadXlsFileSec.whearSerchArrayList){
             System.out.println("Где ищем: " + print);
         }
-*/
+
     }
 }
