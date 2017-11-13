@@ -13,8 +13,10 @@ public class Fasad {
         Display display = new Display();
         display.setVisible(true);
 
- /*
-        ReadXlsFile readXlsFile = new ReadXlsFile("Q:/Papa-dok/Java Projekt/test/Read-what", "Q:/Papa-dok/Java Projekt/test/Read-file");
+
+
+        //ReadXlsFile readXlsFile = new ReadXlsFile(fstFileFolderName, secFileFolderName);
+        /*
         SaveAsExlsFile makeExelFile = new SaveAsExlsFile("Q:/Papa-dok/Java Projekt/test/Null");
         EqualsIsNotEqualTo equalsIsNotEqualTo = new EqualsIsNotEqualTo(ReadXlsFile.whatSerchArrayList, ReadXlsFile.whearSerchArrayList);
 
