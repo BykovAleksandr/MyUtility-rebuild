@@ -11,8 +11,7 @@ import java.io.IOException;
 
 public class ActionFileChooserSaveXls {
 
-    //TODO to remake new class which wrigt get file folder veriable
-    // static file folder variable
+    private static String fileFolder;
 
     public ActionFileChooserSaveXls(JButton btnName, JLabel labbleName) {
 
@@ -30,8 +29,10 @@ public class ActionFileChooserSaveXls {
                     File file  = fileOpen.getSelectedFile();
                     labbleName.setText(file.getAbsolutePath());
 
+
                     try {
-                        SaveAsExlsFile saveNewXls = new SaveAsExlsFile(file.getCanonicalPath());
+                        String tmp = file.getCanonicalPath();
+                        setFileFolder(tmp);
                     } catch (IOException e1)
                     {
                         JOptionPane.showMessageDialog(null, e1);
@@ -40,7 +41,13 @@ public class ActionFileChooserSaveXls {
                 }
             }
         });
-
-
     }
+    public String getFileFolder(){
+        return fileFolder;
+    }
+    public void setFileFolder(String fileFolder){
+        this.fileFolder = fileFolder;
+    }
+
+
 }

@@ -1,5 +1,6 @@
 package com.MyUtiliti.EqualsIsNotEqualTo;
 
+import javax.swing.*;
 import java.util.ArrayList;
 
 public class EqualsIsNotEqualTo {
@@ -10,13 +11,10 @@ public class EqualsIsNotEqualTo {
     public EqualsIsNotEqualTo(ArrayList<String> whatSerchArrayList, ArrayList<String> whearSerchArrayList){
 
         for (int i = 0; i < whatSerchArrayList.size(); i++){
-            //System.out.println(whatSerchArrayList.get(i));
+
             boolean notEquals = false;
 
             for (int y = 0; y < whearSerchArrayList.size(); y++) {
-
-                //System.out.println(whatSerchArrayList.get(i));
-                //System.out.println(whearSerchArrayList.get(y));
 
                 if (whatSerchArrayList.get(i).equals(whearSerchArrayList.get(y))){
                     notEquals = true;
@@ -31,5 +29,20 @@ public class EqualsIsNotEqualTo {
             }
 
         }
+
+        JOptionPane.showMessageDialog(null, "Сравнение завершено.");
+        /*
+        for (String print : notEqualsValueArrayList){
+            System.out.println("Не равно: " + print);
+        }
+
+        System.out.println();
+
+        for (String print : equalsValueArrayList){
+            System.out.println("Равно: " + print);
+        }
+        */
     }
+
+
 }

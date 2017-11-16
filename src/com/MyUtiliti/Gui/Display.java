@@ -3,6 +3,7 @@ package com.MyUtiliti.Gui;
 import javax.swing.*;
 import javax.swing.border.Border;
 import java.awt.*;
+import java.awt.event.ActionListener;
 
 
 public class Display extends JFrame {
@@ -17,9 +18,6 @@ public class Display extends JFrame {
     private JButton jBottonNext = new JButton("Далее");
     private JButton jBottonCancel = new JButton("Отмена");
 
-    public static String fstFileFolderName;
-    public static String secFileFolderName;
-    public static String saveFileFolder;
 
     public Display(){
 
@@ -80,8 +78,8 @@ public class Display extends JFrame {
         ActionFileChooserSecXls secBtnChooser = new ActionFileChooserSecXls(jButtonDownloundSec, labeleNameTwo);
         ActionFileChooserSaveXls saveBtnChooser = new ActionFileChooserSaveXls(jBottonSave, labelSavePath);
 
-
-
-
+        // Start EqualsIsNotEqualTo
+        ActionListener actionBtnNext = new ActionBtnNext(saveBtnChooser.getFileFolder());
+        jBottonNext.addActionListener(actionBtnNext);
     }
 }

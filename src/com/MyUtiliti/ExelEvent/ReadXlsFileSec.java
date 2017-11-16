@@ -29,7 +29,7 @@ public class ReadXlsFileSec {
             for (Row row : wb.getSheetAt(0)){
 
                 for (Cell cell : row){
-                    String tmpString = ParserXlsFile.parserXlsFile(getCellText(cell));
+                    String tmpString = ParserXlsFile.parserXlsFile(cell.toString());
                     if (tmpString != null){
                         whearSerchArrayList.add(tmpString);
                     }
@@ -50,7 +50,7 @@ public class ReadXlsFileSec {
             e.printStackTrace();
         }
     }
-    // Method which initialize end sort inStrim Values
+/*
     public static String getCellText(Cell cell){
 
         String result = "";
@@ -75,10 +75,11 @@ public class ReadXlsFileSec {
             //case Cell.CELL_TYPE_BLANK:
             //break;
             default:
-                System.out.println("Her");
+                System.out.println("Что то в Get ReaderXLS-2");
         }
 
         return result;
     }
+    */
 
 }

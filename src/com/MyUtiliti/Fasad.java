@@ -1,5 +1,6 @@
 package com.MyUtiliti;
 
+import com.MyUtiliti.EqualsIsNotEqualTo.EqualsIsNotEqualTo;
 import com.MyUtiliti.ExelEvent.ReadXlsFileFst;
 import com.MyUtiliti.ExelEvent.ReadXlsFileSec;
 import com.MyUtiliti.Gui.Display;
@@ -32,15 +33,5 @@ public class Fasad {
         }
 
 */
-        for (String print : ReadXlsFileFst.whatSerchArrayList){
-            System.out.println("Что ищем: " + print);
-        }
-
-        System.out.println();
-
-        for (String print : ReadXlsFileSec.whearSerchArrayList){
-            System.out.println("Где ищем: " + print);
-        }
-
     }
 }

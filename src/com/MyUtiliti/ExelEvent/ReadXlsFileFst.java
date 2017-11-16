@@ -28,7 +28,10 @@ public class ReadXlsFileFst {
             // init arrayList serch Value
             for (Row row : wb.getSheetAt(0)) {
                 for (Cell cell : row) {
-                    whatSerchArrayList.add(ParserXlsFile.parserXlsFile(getCellText(cell)));
+                    String tmpString = ParserXlsFile.parserXlsFile(cell.toString());
+                    if (tmpString != null){
+                        whatSerchArrayList.add(tmpString);
+                    }
                 }
             }
 
@@ -45,9 +48,11 @@ public class ReadXlsFileFst {
             e.printStackTrace();
         }
 
-    }      // read and write values in arrayList for the search
-        // Читаем/парсим/проверяем вернувшиеся данные на "null"
+        for (String print : whatSerchArrayList)
+            System.out.println(print);
+    }
 
+/*
     // Method which initialize end sort inStrim Values
     public static String getCellText(Cell cell){
 
@@ -73,12 +78,12 @@ public class ReadXlsFileFst {
             //case Cell.CELL_TYPE_BLANK:
                 //break;
             default:
-                System.out.println("Her");
+                System.out.println("Что то в Get ReaderXLS-1" + cell);
         }
 
         return result;
     }
-
+*/
 
 
 }

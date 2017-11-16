@@ -9,14 +9,20 @@ import org.apache.poi.ss.usermodel.Workbook;
 
 import javax.swing.*;
 import java.io.*;
+import java.util.ArrayList;
 
 public class SaveAsExlsFile {
 
 
     // Add in constructor arrayList with result
-    public SaveAsExlsFile(String fileFolderName) {
+    public SaveAsExlsFile(String fileFolderName, ArrayList<String> equel, ArrayList<String> notEquel) {
 
-        System.out.println(fileFolderName);
+
+        if (equel.size() == 0 || notEquel.size() == 0){
+            System.out.println("фак ап");
+        }
+        else {
+            System.out.println(fileFolderName);
             // Make exl book
             Workbook wb = new HSSFWorkbook();
             // Create sheet in xls book
@@ -31,16 +37,27 @@ public class SaveAsExlsFile {
             //Write Value in set pos, (row X cell)
             cell.setCellValue("Test");
 
-        try {
-            FileOutputStream fos = new FileOutputStream(fileFolderName + ".xls");
 
-            wb.write(fos);
-            fos.close();
-            JOptionPane.showMessageDialog(null, "Файл создан!");
+            System.out.println(fileFolderName);
 
-        } catch (IOException e) {
-            e.printStackTrace();
-            JOptionPane.showMessageDialog(null, e);
+            for (String print : equel)
+                System.out.println("Равно: " + print);
+
+            for (String print : notEquel)
+                System.out.println("Равно: " + print);
+
+
+            try {
+                FileOutputStream fos = new FileOutputStream(fileFolderName + ".xls");
+
+                wb.write(fos);
+                fos.close();
+                JOptionPane.showMessageDialog(null, "Файл создан!");
+
+            } catch (IOException e) {
+                e.printStackTrace();
+                JOptionPane.showMessageDialog(null, e);
+            }
         }
 
     }
