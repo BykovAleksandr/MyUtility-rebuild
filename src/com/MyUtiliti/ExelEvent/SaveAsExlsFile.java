@@ -17,11 +17,6 @@ public class SaveAsExlsFile {
     // Add in constructor arrayList with result
     public SaveAsExlsFile(String fileFolderName, ArrayList<String> equel, ArrayList<String> notEquel) {
 
-
-        if (equel.size() == 0 || notEquel.size() == 0){
-            System.out.println("фак ап");
-        }
-        else {
             System.out.println(fileFolderName);
             // Make exl book
             Workbook wb = new HSSFWorkbook();
@@ -30,21 +25,23 @@ public class SaveAsExlsFile {
             Sheet sheet1 = wb.createSheet("Not equel");
 
             // Create row end set position
-            Row row = sheet.createRow(0);
-            // Create Cell end set position
-            Cell cell = row.createCell(0);
+
 
             //Write Value in set pos, (row X cell)
-            cell.setCellValue("Test");
 
 
-            System.out.println(fileFolderName);
+        for (int i = 0; i < equel.size(); i++){
+            Row row = sheet.createRow(i);
+            Cell cell = row.createCell(0);
+            cell.setCellValue(equel.get(i));
+        }
 
-            for (String print : equel)
-                System.out.println("Равно: " + print);
+        for (int i = 0; i < equel.size(); i++){
+            Row row = sheet1.createRow(i);
+            Cell cell = row.createCell(0);
+            cell.setCellValue(notEquel.get(i));
+        }
 
-            for (String print : notEquel)
-                System.out.println("Равно: " + print);
 
 
             try {
@@ -58,7 +55,7 @@ public class SaveAsExlsFile {
                 e.printStackTrace();
                 JOptionPane.showMessageDialog(null, e);
             }
-        }
+
 
     }
 }

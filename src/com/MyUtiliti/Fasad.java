@@ -3,35 +3,21 @@ package com.MyUtiliti;
 import com.MyUtiliti.EqualsIsNotEqualTo.EqualsIsNotEqualTo;
 import com.MyUtiliti.ExelEvent.ReadXlsFileFst;
 import com.MyUtiliti.ExelEvent.ReadXlsFileSec;
+import com.MyUtiliti.ExelEvent.SaveAsExlsFile;
 import com.MyUtiliti.Gui.Display;
 
 
 public class Fasad {
 
     public Fasad(){
-
+/*
         Display display = new Display();
         display.setVisible(true);
-
-        //System.out.println(ActionFileChooserSaveXls.getFileFolderName());
-
-        //ReadXlsFileFst readXlsFile = new ReadXlsFileFst(ActionFileChooserSaveXls.getFileFolderName(), secFileFolderName);
-        /*
-        SaveAsExlsFile makeExelFile = new SaveAsExlsFile("Q:/Papa-dok/Java Projekt/test/Null");
-        EqualsIsNotEqualTo equalsIsNotEqualTo = new EqualsIsNotEqualTo(ReadXlsFileFst.whatSerchArrayList, ReadXlsFileFst.whearSerchArrayList);
-
-
-
-        for (String print : EqualsIsNotEqualTo.equalsValueArrayList){
-            System.out.println(print);
-        }
-
-        System.out.println();
-
-        for (String print : EqualsIsNotEqualTo.notEqualsValueArrayList){
-            System.out.println("Нет совпадений: " + print);
-        }
-
 */
+        new ReadXlsFileFst("C://Users/bykov/Desktop/test/Read-what.xls");
+        new ReadXlsFileSec("C://Users/bykov/Desktop/test/Read-whear.xls");
+
+        new EqualsIsNotEqualTo(ReadXlsFileFst.whatSerchArrayList, ReadXlsFileSec.whearSerchArrayList);
+        new SaveAsExlsFile("C://Users/bykov/Desktop/test/result.xls",EqualsIsNotEqualTo.equalsValueArrayList, EqualsIsNotEqualTo.notEqualsValueArrayList);
     }
 }

@@ -11,18 +11,9 @@ import java.awt.event.ActionListener;
 
 public class ActionBtnNext implements ActionListener {
 
-    public static String fileFolder;
 
     @Override
     public void actionPerformed(ActionEvent e) {
         EqualsIsNotEqualTo equalsIsNotEqualTo = new EqualsIsNotEqualTo(ReadXlsFileFst.whatSerchArrayList, ReadXlsFileSec.whearSerchArrayList);
     }
-
-
-    public ActionBtnNext(String fileFolder){
-        SaveAsExlsFile saveAsExlsFile = new SaveAsExlsFile(fileFolder, EqualsIsNotEqualTo.equalsValueArrayList, EqualsIsNotEqualTo.notEqualsValueArrayList);
-    }
-
-
-
 }

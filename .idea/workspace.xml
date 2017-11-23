@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40a59388-7102-48e9-93e1-29b01d74ee89" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/MyUtiliti/Gui/ActionBtnNext.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/MyUtiliti/EqualsIsNotEqualTo/EqualsIsNotEqualTo.java" afterPath="$PROJECT_DIR$/src/com/MyUtiliti/EqualsIsNotEqualTo/EqualsIsNotEqualTo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/MyUtiliti/ExelEvent/ReadXlsFileFst.java" afterPath="$PROJECT_DIR$/src/com/MyUtiliti/ExelEvent/ReadXlsFileFst.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/MyUtiliti/ExelEvent/ReadXlsFileSec.java" afterPath="$PROJECT_DIR$/src/com/MyUtiliti/ExelEvent/ReadXlsFileSec.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/MyUtiliti/ExelEvent/SaveAsExlsFile.java" afterPath="$PROJECT_DIR$/src/com/MyUtiliti/ExelEvent/SaveAsExlsFile.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/MyUtiliti/Fasad.java" afterPath="$PROJECT_DIR$/src/com/MyUtiliti/Fasad.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/MyUtiliti/Gui/ActionFileChooserSaveXls.java" afterPath="$PROJECT_DIR$/src/com/MyUtiliti/Gui/ActionFileChooserSaveXls.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/MyUtiliti/Gui/ActionBtnNext.java" afterPath="$PROJECT_DIR$/src/com/MyUtiliti/Gui/ActionBtnNext.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/MyUtiliti/Gui/Display.java" afterPath="$PROJECT_DIR$/src/com/MyUtiliti/Gui/Display.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,34 +17,40 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DockManager">
-    <window id="2">
+    <window id="1">
       <content type="file-editors">
         <state>
           <leaf>
-            <file leaf-file-name="ActionFileChooserSaveXls.java" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/com/MyUtiliti/Gui/ActionFileChooserSaveXls.java">
+            <file leaf-file-name="ActionBtnNext.java" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/com/MyUtiliti/Gui/ActionBtnNext.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="401">
-                    <caret line="28" column="60" lean-forward="true" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+                  <state relative-caret-position="204">
+                    <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
                     <folding>
                       <element signature="imports" expanded="true" />
-                      <element signature="e#1433#1434#0" expanded="true" />
-                      <element signature="e#1466#1467#0" expanded="true" />
-                      <element signature="e#1516#1517#0" expanded="true" />
-                      <element signature="e#1560#1561#0" expanded="true" />
                     </folding>
                   </state>
                 </provider>
               </entry>
             </file>
-            <file leaf-file-name="ActionBtnNext.java" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/com/MyUtiliti/Gui/ActionBtnNext.java">
+            <file leaf-file-name="ReadXlsFileFst.java" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/com/MyUtiliti/ExelEvent/ReadXlsFileFst.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="374">
-                    <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+                  <state relative-caret-position="612">
+                    <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
                     <folding>
                       <element signature="imports" expanded="true" />
                     </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="EqualsIsNotEqualTo.java" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/com/MyUtiliti/EqualsIsNotEqualTo/EqualsIsNotEqualTo.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="153">
+                    <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+                    <folding />
                   </state>
                 </provider>
               </entry>
@@ -60,11 +62,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Fasad.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/MyUtiliti/Fasad.java">
+      <file leaf-file-name="ActionFileChooserSaveXls.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/MyUtiliti/Gui/ActionFileChooserSaveXls.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+            <state relative-caret-position="333">
+              <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,31 +74,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Display.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/MyUtiliti/Gui/Display.java">
+      <file leaf-file-name="Fasad.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/MyUtiliti/Fasad.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="78" column="107" lean-forward="false" selection-start-line="78" selection-start-column="107" selection-end-line="78" selection-end-column="107" />
-              <folding />
+            <state relative-caret-position="340">
+              <caret line="20" column="63" lean-forward="false" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SaveAsExlsFile.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SaveAsExlsFile.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/MyUtiliti/ExelEvent/SaveAsExlsFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+            <state relative-caret-position="129">
+              <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="24" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -148,15 +142,15 @@
         <option value="$PROJECT_DIR$/src/com/MyUtiliti/ExelEvent/ReadXlsFile.java" />
         <option value="$PROJECT_DIR$/src/com/MyUtiliti/Gui/ActionFileChooserFstXls.java" />
         <option value="$PROJECT_DIR$/src/com/MyUtiliti/Gui/ActionFileChooserSecXls.java" />
-        <option value="$PROJECT_DIR$/src/com/MyUtiliti/Fasad.java" />
         <option value="$PROJECT_DIR$/src/com/MyUtiliti/ExelEvent/ReadXlsFileSec.java" />
         <option value="$PROJECT_DIR$/src/com/MyUtiliti/ExelEvent/ReadXlsFileFst.java" />
         <option value="$PROJECT_DIR$/src/com/MyUtiliti/EqualsIsNotEqualTo/EqualsIsNotEqualTo.java" />
         <option value="$PROJECT_DIR$/src/com/MyUtiliti/Gui/ActionFileChooserSaveXls.java" />
-        <option value="$PROJECT_DIR$/src/com/MyUtiliti/Gui/Display.java" />
-        <option value="$PROJECT_DIR$/src/com/MyUtiliti/Gui/ActionBtnNext.java" />
-        <option value="$PROJECT_DIR$/src/com/MyUtiliti/ExelEvent/SaveAsExlsFile.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/com/MyUtiliti/Gui/ActionBtnNext.java" />
+        <option value="$PROJECT_DIR$/src/com/MyUtiliti/Gui/Display.java" />
+        <option value="$PROJECT_DIR$/src/com/MyUtiliti/Fasad.java" />
+        <option value="$PROJECT_DIR$/src/com/MyUtiliti/ExelEvent/SaveAsExlsFile.java" />
       </list>
     </option>
   </component>
@@ -167,8 +161,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="9" />
+    <option name="x" value="339" />
+    <option name="y" value="16" />
     <option name="width" value="1360" />
     <option name="height" value="691" />
   </component>
@@ -190,6 +184,7 @@
     <panes>
       <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,7 +244,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -408,16 +402,16 @@
       <workItem from="1510551871261" duration="11000" />
       <workItem from="1510571258864" duration="14100000" />
       <workItem from="1510834507175" duration="4372000" />
-      <workItem from="1510839212311" duration="6343000" />
+      <workItem from="1510839212311" duration="6626000" />
+      <workItem from="1511446375508" duration="5994000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79632000" />
+    <option name="totallyTimeSpent" value="85909000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -427,8 +421,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944915" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21822034" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21822034" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -438,8 +432,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3983051" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -459,7 +453,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/MyUtiliti/Fasad.java</url>
-          <line>11</line>
+          <line>12</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
@@ -645,7 +639,6 @@
     <entry file="file://$PROJECT_DIR$/.gitignor" />
     <entry file="jar://C:/Program Files/JetBrains/java_lib/poi-3.17/poi-3.17.jar!/org/apache/poi/ss/usermodel/Cell.class" />
     <entry file="jar://C:/Program Files/JetBrains/java_lib/poi-3.17/poi-3.17.jar!/org/apache/poi/hssf/usermodel/HSSFRow.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/ArrayList.java" />
     <entry file="file://$PROJECT_DIR$/src/com/MyUtiliti/Gui/Gui.java" />
     <entry file="file://$PROJECT_DIR$/src/com/MyUtiliti/Gui.form" />
     <entry file="file://$PROJECT_DIR$/src/com/MyUtiliti/Gui.java" />
@@ -687,7 +680,7 @@
         <state relative-caret-position="452">
           <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -697,7 +690,7 @@
         <state relative-caret-position="407">
           <caret line="31" column="68" lean-forward="false" selection-start-line="31" selection-start-column="68" selection-end-line="31" selection-end-column="68" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -707,36 +700,24 @@
         <state relative-caret-position="401">
           <caret line="31" column="82" lean-forward="false" selection-start-line="31" selection-start-column="82" selection-end-line="31" selection-end-column="82" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <marker date="1510840160325" expanded="false" signature="2417:2466" ph="//..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/MyUtiliti/Fasad.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/MyUtiliti/ExelEvent/ReadXlsFileFst.java">
+    <entry file="file://$PROJECT_DIR$/src/com/MyUtiliti/Gui/ActionBtnNext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="47" column="32" lean-forward="true" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/MyUtiliti/EqualsIsNotEqualTo/EqualsIsNotEqualTo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -745,48 +726,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/MyUtiliti/Gui/ActionFileChooserSaveXls.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="28" column="60" lean-forward="true" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+        <state relative-caret-position="333">
+          <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1433#1434#0" expanded="true" />
-            <element signature="e#1466#1467#0" expanded="true" />
-            <element signature="e#1516#1517#0" expanded="true" />
-            <element signature="e#1560#1561#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/MyUtiliti/Gui/Display.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="78" column="107" lean-forward="false" selection-start-line="78" selection-start-column="107" selection-end-line="78" selection-end-column="107" />
+        <state relative-caret-position="1257">
+          <caret line="81" column="57" lean-forward="false" selection-start-line="81" selection-start-column="57" selection-end-line="81" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/MyUtiliti/Gui/ActionBtnNext.java">
+    <entry file="file://$PROJECT_DIR$/src/com/MyUtiliti/ExelEvent/ReadXlsFileFst.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="612">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/MyUtiliti/ExelEvent/SaveAsExlsFile.java">
+    <entry file="file://$PROJECT_DIR$/src/com/MyUtiliti/Fasad.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        <state relative-caret-position="340">
+          <caret line="20" column="63" lean-forward="false" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/MyUtiliti/EqualsIsNotEqualTo/EqualsIsNotEqualTo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        <state relative-caret-position="237">
+          <caret line="652" column="0" lean-forward="false" selection-start-line="652" selection-start-column="0" selection-end-line="652" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/MyUtiliti/ExelEvent/SaveAsExlsFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="24" selection-end-column="55" />
           <folding />
         </state>
       </provider>

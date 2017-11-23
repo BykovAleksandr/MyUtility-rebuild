@@ -79,7 +79,7 @@ public class Display extends JFrame {
         ActionFileChooserSaveXls saveBtnChooser = new ActionFileChooserSaveXls(jBottonSave, labelSavePath);
 
         // Start EqualsIsNotEqualTo
-        ActionListener actionBtnNext = new ActionBtnNext(saveBtnChooser.getFileFolder());
-        jBottonNext.addActionListener(actionBtnNext);
+        ActionListener actionBtnNext = new ActionBtnNext();
+
     }
 }
