@@ -36,20 +36,12 @@ public class ReadXlsFileFst {
             }
 
             fis.close();
-            /*
-            for (String print : whatSerchArrayList){
-                System.out.println("Что ищем: " + print);
-            }
-            */
             JOptionPane.showMessageDialog(null, "Файл с искомыми значениями успешно загружен!");
 
         } catch (IOException e) {
             JOptionPane.showMessageDialog(null, e);
             e.printStackTrace();
         }
-
-        for (String print : whatSerchArrayList)
-            System.out.println(print);
     }
 
 /*

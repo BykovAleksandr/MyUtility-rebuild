@@ -37,12 +37,6 @@ public class ReadXlsFileSec {
 
             }
 
-            fis.close();
-            /*
-            for (String print : whearSerchArrayList){
-                System.out.println("Что ищем: " + print);
-            }
-            */
             JOptionPane.showMessageDialog(null, "Файл Где ищем успешно загружен!");
 
         } catch (IOException e) {
